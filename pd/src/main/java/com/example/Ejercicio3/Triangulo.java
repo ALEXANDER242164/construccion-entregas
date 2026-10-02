@@ -6,10 +6,15 @@ public class Triangulo extends Figura {
     private double base;
     private double altura;
 
+    // MEJORA: Se agrega un constructor que recibe la base y la altura del
+    // triangulo.
     public Triangulo(double base, double altura) {
         this.base = base;
         this.altura = altura;
     }
+
+    // Respecto a los métodos get y set, se agregan para permitir el acceso a los
+    // atributos base y altura desde otras clases si es necesario.
 
     public double getBase() {
         return base;
